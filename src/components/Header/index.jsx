@@ -3,6 +3,8 @@ import { useAuth } from "../../hooks/auth";
 import {RiShutDownLine} from "react-icons/ri"
 import { api } from "../../services/api";
 import { useNavigate } from "react-router-dom";
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
+
 
 export function Header () {
     const {logOut, user} = useAuth();
