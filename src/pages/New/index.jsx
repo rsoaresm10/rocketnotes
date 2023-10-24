@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { Section } from "../../components/Section";
 import { Textarea } from "../../components/Textarea";
-import { NoteItem } from "../../components/Noteitem";
+import { NoteItem } from "../../components/NoteItem";
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText";
 import { useState } from "react";
